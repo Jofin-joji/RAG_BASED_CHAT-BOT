@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# ---- Environment Files ----
+.env
+.env.*
+*.env
+
+# ---- Virtual Environments ----
+venv/
+env/
+.venv/
+.conda/
+*.conda
+
+# ---- Streamlit ----
+.streamlit/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+
+# ---- FAISS Index Files (If saved locally) ----
+*.index
+*.faiss
+
+# ---- Cache ----
+.cache/

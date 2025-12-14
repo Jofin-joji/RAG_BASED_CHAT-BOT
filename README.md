@@ -23,31 +23,6 @@ A simple Streamlit UI is included for an easy interactive chat experience.
 
 ⚡ Lightweight and beginner-friendly
 
-🗂️ Project Structure
-rag-chatbot/
-│
-├── data/                       # Raw text files for knowledge base
-│     └── sample.txt
-│
-├── etl/
-│     ├── extract.py            # Load raw files
-│     ├── transform.py          # Chunk data
-│     └── load.py               # ETL pipeline runner
-│
-├── embeddings/
-│     └── embedder.py           # Create text embeddings
-│
-├── vectorstore/
-│     └── faiss_store.py        # FAISS index handling
-│
-├── llm/
-│     └── generator.py          # Gemini response generator
-│
-├── chatbot/
-│     └── rag_chatbot.py        # Complete RAG pipeline
-│
-├── app.py                      # Streamlit UI
-└── main.py                     # Command-line chatbot entry point
 
 🛠️ Installation
 1. Create Conda Environment
